@@ -117,16 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AnalyzerDescription" xml:space="preserve">
-    <value>Type names should be all uppercase.</value>
-    <comment>An optional longer localizable description of the diagnostic.</comment>
+  <data name="UsingStatementMissingAwaitAnalyzerDescription" xml:space="preserve">
+    <value>Await keyword is missing in using statement. This will dispose the task, not the task's result.</value>
   </data>
-  <data name="AnalyzerMessageFormat" xml:space="preserve">
-    <value>Type name '{0}' contains lowercase letters</value>
+  <data name="UsingStatementMissingAwaitAnalyzerMessageFormat" xml:space="preserve">
+    <value>Await keyword is missing in using statement '{0}'. This will dispose the task, not the task's result.</value>
     <comment>The format-able message the diagnostic displays.</comment>
   </data>
-  <data name="AnalyzerTitle" xml:space="preserve">
-    <value>Type name contains lowercase letters</value>
-    <comment>The title of the diagnostic.</comment>
+  <data name="UsingStatementMissingAwaitAnalyzerTitle" xml:space="preserve">
+    <value>Await keyword missing in using statement.</value>
+  </data>
+  <data name="UsingStatementMissingAwaitCodeFixTitle" xml:space="preserve">
+    <value>Await initializer expression</value>
   </data>
 </root>
